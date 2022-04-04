@@ -1,0 +1,29 @@
+body{
+	width:90%;
+	margin: 2em auto;
+}
+
+.header, .footer, .content { 
+	margin: 1em auto;
+	border: 0.01em solid #aaa;
+	border-radius: 1em;
+	padding: 1em;
+	background: #f5f5f5;
+    box-shadow: 0.2em 0.2em 0.4em #ccc;
+}
+
+.header, .footer{ 
+	text-align: center;
+}
+
+.messages {	margin: 1em auto; }
+
+.err, .inf, .res {
+	padding: 1em 1em 1em 3em;
+	border-radius: 1em;
+	color: #222;
+}
+
+.err { background-color: #f88; }
+.inf { background-color: #8f8; }
+.res { background-color: #ff0; }
